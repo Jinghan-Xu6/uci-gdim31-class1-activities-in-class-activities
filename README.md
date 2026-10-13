@@ -12,6 +12,15 @@
     because the variable _bounce indicates how many time the ball has bounced, it should be a integer.
 3.The error you got after Step 4 of Part 2 told you something useful about why that line of code was broken- what was it?
     f is necessary for a float variable after the decimal, and there must be a ; at the end of a line.
+
+
+### W3
+Activity 1：
+    1.private string GetResponse (int friendshipLevel, bool ifKnows)
+    2.private void SetLightDimness (float sanityLevel)
+    3.private bool DidPlayerHitBeat (float hitTime)
+Activity 2:
+    Classes are just like molds of cookies and the components are the cookies, and the member variables are the features of the cookies and the method is what cookies can do.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
