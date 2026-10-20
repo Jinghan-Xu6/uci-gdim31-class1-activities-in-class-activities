@@ -21,6 +21,10 @@ Activity 1：
     3.private bool DidPlayerHitBeat (float hitTime)
 Activity 2:
     Classes are just like molds of cookies and the components are the cookies, and the member variables are the features of the cookies and the method is what cookies can do.
+
+### W4
+1.Both cat and soccerball need to have a rigidbody component, and only the Goal need IsTrigger, because when IsTrigger is on, there is no collision. 
+2.When I used "toString", it does not work because Unity cannot find it in the library. Ater that I used "" + (int), it finally woeks
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
