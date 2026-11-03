@@ -29,7 +29,7 @@ Activity 2:
 ### W6
 1._agent & target are needed in this class.
 2.I only use "Start()" method in this class because SetDestination(target.position) can make deer go to the target directly.
-3.Start() method and then make the deer go to the target by using SetDestination, and target.position comfirm the position that deer need to go.
+3.Start() method first put the "NavMeshAgent" component into _agent, and then make the deer go to the target by using SetDestination, target.position comfirm the position that deer need to go.
 
 
 ## Open-Source Assets
