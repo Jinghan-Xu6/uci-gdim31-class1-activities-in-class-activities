@@ -24,7 +24,14 @@ Activity 2:
 
 ### W4
 1.Both cat and soccerball need to have a rigidbody component, and only the Goal need IsTrigger, because when IsTrigger is on, there is no collision. 
-2.When I used "toString", it does not work because Unity cannot find it in the library. Ater that I used "" + (int), it finally woeks
+2.When I used "toString", it does not work because Unity cannot find it in the library. Ater that I used "" + (int), it finally works
+
+### W6
+1._agent & target are needed in this class.
+2.I only use "Start()" method in this class because SetDestination(target.position) can make deer go to the target directly.
+3.Start() method and then make the deer go to the target by using SetDestination, and target.position comfirm the position that deer need to go.
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
