@@ -44,6 +44,15 @@ public class CatW5 : MonoBehaviour
         // MULTIPLY one of your vectors with a certain value to do this. >:)
 
         Vector3 translation = Vector3.zero;
+
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)){
+            translation.z = 1;
+        }
+        else if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)){
+            translation.z = -1;
+        }
+
+        transform.Translate(translation * _moveSpeed * Time.deltaTime);
         
 
 
