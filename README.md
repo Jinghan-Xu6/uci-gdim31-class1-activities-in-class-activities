@@ -31,6 +31,14 @@ Activity 2:
 2.I only use "Start()" method in this class because SetDestination(target.position) can make deer go to the target directly.
 3.Start() method first put the "NavMeshAgent" component into _agent, and then make the deer go to the target by using SetDestination, target.position comfirm the position that deer need to go.
 
+### W7
+1.catTarget chaseSpeed and isChasing
+2.Update() StartChasing() and StopChasing()
+3.Update(): move bats toward the cat
+  StartChasing(): Set isChasing to be true
+  StopChasing(): Set isChasing to be false
+
+
 
 ## Open-Source Assets
 ### W1
